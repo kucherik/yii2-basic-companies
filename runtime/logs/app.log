@@ -1,0 +1,1556 @@
+2019-07-15 18:23:12 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:23:12 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = [
+    'tag' => '5d2c9a6017d36'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/admin/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61419'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=5d2c9a6017d36'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5d2c9a6017d36'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5d2c9a6017d36'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204192.398
+    'REQUEST_TIME' => 1563204192
+    'argv' => [
+        0 => 'tag=5d2c9a6017d36'
+    ]
+    'argc' => 1
+]
+2019-07-15 18:23:15 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:23:14 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = [
+    'tag' => '5d2c9a62aa58b'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/admin/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61419'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=5d2c9a62aa58b'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5d2c9a62aa58b'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5d2c9a62aa58b'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204194.891
+    'REQUEST_TIME' => 1563204194
+    'argv' => [
+        0 => 'tag=5d2c9a62aa58b'
+    ]
+    'argc' => 1
+]
+2019-07-15 18:23:19 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:23:18 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = [
+    'tag' => '5d2c9a669279a'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/admin/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61419'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=5d2c9a669279a'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5d2c9a669279a'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5d2c9a669279a'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204198.864
+    'REQUEST_TIME' => 1563204198
+    'argv' => [
+        0 => 'tag=5d2c9a669279a'
+    ]
+    'argc' => 1
+]
+2019-07-15 18:23:19 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:23:19 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = [
+    'tag' => '5d2c9a6785cb1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61419'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=5d2c9a6785cb1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5d2c9a6785cb1'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5d2c9a6785cb1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204199.806
+    'REQUEST_TIME' => 1563204199
+    'argv' => [
+        0 => 'tag=5d2c9a6785cb1'
+    ]
+    'argc' => 1
+]
+2019-07-15 18:23:21 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:23:21 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = [
+    'tag' => '5d2c9a68e8339'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61419'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=5d2c9a68e8339'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5d2c9a68e8339'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5d2c9a68e8339'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204201.172
+    'REQUEST_TIME' => 1563204201
+    'argv' => [
+        0 => 'tag=5d2c9a68e8339'
+    ]
+    'argc' => 1
+]
+2019-07-15 18:23:22 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:23:22 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = [
+    'tag' => '5d2c9a69d0c6d'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61419'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=5d2c9a69d0c6d'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5d2c9a69d0c6d'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5d2c9a69d0c6d'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204202.012
+    'REQUEST_TIME' => 1563204202
+    'argv' => [
+        0 => 'tag=5d2c9a69d0c6d'
+    ]
+    'argc' => 1
+]
+2019-07-15 18:24:32 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('/debug', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:24:32 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61502'
+    'REDIRECT_URL' => '/debug'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//debug'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204272.047
+    'REQUEST_TIME' => 1563204272
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:24:32 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:24:32 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = [
+    'tag' => '5d2c9ab02d73b'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-basic-companies//debug'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61502'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=5d2c9ab02d73b'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5d2c9ab02d73b'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5d2c9ab02d73b'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204272.51
+    'REQUEST_TIME' => 1563204272
+    'argv' => [
+        0 => 'tag=5d2c9ab02d73b'
+    ]
+    'argc' => 1
+]
+2019-07-15 18:29:44 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7c71a3ac/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/7c71a3ac...', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 18:29:44 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/assets/7c71a3ac/jquery-ui.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61797'
+    'REDIRECT_URL' => '/web/assets/7c71a3ac/images/ui-bg_flat_75_ffffff_40x100.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/7c71a3ac/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204584.628
+    'REQUEST_TIME' => 1563204584
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:29:59 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7c71a3ac/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/7c71a3ac...', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 18:29:59 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/assets/7c71a3ac/jquery-ui.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61835'
+    'REDIRECT_URL' => '/web/assets/7c71a3ac/images/ui-bg_flat_75_ffffff_40x100.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/7c71a3ac/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204599.498
+    'REQUEST_TIME' => 1563204599
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:31:46 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\bootstrap\Nav::0' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php:209
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\BaseYii.php(546): yii\base\Component->__set('0', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\BaseObject.php(107): yii\BaseYii::configure(Object(yii\bootstrap\Nav), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\di\Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\bootstrap\\N...', Array, Array)
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\bootstrap\\N...', Array, Array)
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\views\layouts\admin.php(53): yii\base\Widget::widget(Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\View.php(348): require('C:\\OSPanel\\doma...')
+#9 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#10 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\widgets\ContentDecorator.php(79): yii\base\View->renderFile('@app/views/layo...', Array)
+#11 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Widget.php(109): yii\widgets\ContentDecorator->run()
+#12 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\View.php(521): yii\base\Widget::end()
+#13 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\views\layouts\left-menu.php(41): yii\base\View->endContent()
+#14 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\View.php(348): require('C:\\OSPanel\\doma...')
+#15 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#16 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(mdm\admin\controllers\MenuController))
+#17 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="men...')
+#18 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\controllers\MenuController.php(49): yii\base\Controller->render('index', Array)
+#19 [internal function]: mdm\admin\controllers\MenuController->actionIndex()
+#20 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#22 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#23 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('rbac/menu/index', Array)
+#24 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#26 {main}
+2019-07-15 18:31:46 [127.0.0.1][1][4h7sou2kl67ngkd3vln829oeb5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4h7sou2kl67ngkd3vln829oeb5'
+    '_csrf' => 'dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/rbac/menu'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=4h7sou2kl67ngkd3vln829oeb5; _csrf=dd6a127a899f13794a302ac1bc17d111b379953b7313ff675b37f23c3d0ec941a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_mwkiAqPcu5tKnJpSmfaDA5W4H9j8efo%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '61949'
+    'REDIRECT_URL' => '/rbac/menu/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/menu/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563204706.606
+    'REQUEST_TIME' => 1563204706
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:51:21 [127.0.0.1][-][6v7pl8d7555jon168tc0k7k9a2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/sighnup' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('sighnup', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/sighnup', Array)
+#2 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 18:51:21 [127.0.0.1][-][6v7pl8d7555jon168tc0k7k9a2][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '36b5b43d5a8a59c5161eab8d4977d56b3443a0c010e097c55fedc86e68b2e252a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LCnHqflGSvYtTKt9zYOG1cgIjSWon8_n\";}'
+    'PHPSESSID' => '6v7pl8d7555jon168tc0k7k9a2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=36b5b43d5a8a59c5161eab8d4977d56b3443a0c010e097c55fedc86e68b2e252a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LCnHqflGSvYtTKt9zYOG1cgIjSWon8_n%22%3B%7D; PHPSESSID=6v7pl8d7555jon168tc0k7k9a2'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '63020'
+    'REDIRECT_URL' => '/site/sighnup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/sighnup'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563205881.726
+    'REQUEST_TIME' => 1563205881
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:51:29 [127.0.0.1][-][6v7pl8d7555jon168tc0k7k9a2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/sighnup' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('sighnup', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/sighnup', Array)
+#2 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 18:51:29 [127.0.0.1][-][6v7pl8d7555jon168tc0k7k9a2][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '36b5b43d5a8a59c5161eab8d4977d56b3443a0c010e097c55fedc86e68b2e252a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LCnHqflGSvYtTKt9zYOG1cgIjSWon8_n\";}'
+    'PHPSESSID' => '6v7pl8d7555jon168tc0k7k9a2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/signup'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=36b5b43d5a8a59c5161eab8d4977d56b3443a0c010e097c55fedc86e68b2e252a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LCnHqflGSvYtTKt9zYOG1cgIjSWon8_n%22%3B%7D; PHPSESSID=6v7pl8d7555jon168tc0k7k9a2'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '63020'
+    'REDIRECT_URL' => '/site/sighnup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/sighnup'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563205889.795
+    'REQUEST_TIME' => 1563205889
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:56:30 [127.0.0.1][2][88e7l4fv21tdbaivdm7smv0ft7][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('rbac/default/in...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 18:56:30 [127.0.0.1][2][88e7l4fv21tdbaivdm7smv0ft7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '88e7l4fv21tdbaivdm7smv0ft7'
+    '_csrf' => '175359bdd29025aba3d980f8200407045cb556a31f75f23c4fb0ffdf4b09aad6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k-v_D3PTxCGMWE5302nelkGnfK1chgwe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/signup'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/company/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=88e7l4fv21tdbaivdm7smv0ft7; _csrf=175359bdd29025aba3d980f8200407045cb556a31f75f23c4fb0ffdf4b09aad6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k-v_D3PTxCGMWE5302nelkGnfK1chgwe%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '63353'
+    'REDIRECT_URL' => '/rbac/default/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/default/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563206190.257
+    'REQUEST_TIME' => 1563206190
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:58:24 [127.0.0.1][1][kosuif5qfhu8c1c5svoq4aljl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/company/view=2' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view=2', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/company/v...', Array)
+#2 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 18:58:24 [127.0.0.1][1][kosuif5qfhu8c1c5svoq4aljl6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kosuif5qfhu8c1c5svoq4aljl6'
+    '_csrf' => 'c95aa6e60bf4e74de789bec0ffa63977de3c1fcd938527d63cdc8064b04d9156a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"y51Ma4VXr_80eKnOi1FjAhnA2uPYNWi8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/company/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=kosuif5qfhu8c1c5svoq4aljl6; _csrf=c95aa6e60bf4e74de789bec0ffa63977de3c1fcd938527d63cdc8064b04d9156a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22y51Ma4VXr_80eKnOi1FjAhnA2uPYNWi8%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '63474'
+    'REDIRECT_URL' => '/admin/company/view=2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/company/view=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563206304.289
+    'REQUEST_TIME' => 1563206304
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 18:59:11 [127.0.0.1][1][kosuif5qfhu8c1c5svoq4aljl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/company/view/id=2".' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/company/v...', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 18:59:11 [127.0.0.1][1][kosuif5qfhu8c1c5svoq4aljl6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kosuif5qfhu8c1c5svoq4aljl6'
+    '_csrf' => 'c95aa6e60bf4e74de789bec0ffa63977de3c1fcd938527d63cdc8064b04d9156a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"y51Ma4VXr_80eKnOi1FjAhnA2uPYNWi8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/company/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=kosuif5qfhu8c1c5svoq4aljl6; _csrf=c95aa6e60bf4e74de789bec0ffa63977de3c1fcd938527d63cdc8064b04d9156a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22y51Ma4VXr_80eKnOi1FjAhnA2uPYNWi8%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '63521'
+    'REDIRECT_URL' => '/admin/company/view/id=2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/company/view/id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563206351.183
+    'REQUEST_TIME' => 1563206351
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 19:12:10 [127.0.0.1][1][kosuif5qfhu8c1c5svoq4aljl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "company/index/view".' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index/v...', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 19:12:10 [127.0.0.1][1][kosuif5qfhu8c1c5svoq4aljl6][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kosuif5qfhu8c1c5svoq4aljl6'
+    '_csrf' => 'c95aa6e60bf4e74de789bec0ffa63977de3c1fcd938527d63cdc8064b04d9156a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"y51Ma4VXr_80eKnOi1FjAhnA2uPYNWi8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/company/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/company/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=kosuif5qfhu8c1c5svoq4aljl6; _csrf=c95aa6e60bf4e74de789bec0ffa63977de3c1fcd938527d63cdc8064b04d9156a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22y51Ma4VXr_80eKnOi1FjAhnA2uPYNWi8%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '64171'
+    'REDIRECT_URL' => '/company/index/view'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/company/index/view?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563207130.818
+    'REQUEST_TIME' => 1563207130
+    'argv' => [
+        0 => 'id=2'
+    ]
+    'argc' => 1
+]
+2019-07-15 19:14:02 [127.0.0.1][3][qkepefmvpgif5bemu5ppi8gsn5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/i...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 19:14:02 [127.0.0.1][3][qkepefmvpgif5bemu5ppi8gsn5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'qkepefmvpgif5bemu5ppi8gsn5'
+    '_csrf' => 'debfc3f7c8e4a807c32b6950524b6bd6bbcf1118bdc38d1ca74c4a2772f60552a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cIEQgU2d8UOM5qGCUfMjQzCBbW5yNCUt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rbac/default/index'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=qkepefmvpgif5bemu5ppi8gsn5; _csrf=debfc3f7c8e4a807c32b6950524b6bd6bbcf1118bdc38d1ca74c4a2772f60552a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cIEQgU2d8UOM5qGCUfMjQzCBbW5yNCUt%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '64277'
+    'REDIRECT_URL' => '/admin/default/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563207242.649
+    'REQUEST_TIME' => 1563207242
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 19:14:15 [127.0.0.1][3][qkepefmvpgif5bemu5ppi8gsn5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('rbac/default/in...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 19:14:15 [127.0.0.1][3][qkepefmvpgif5bemu5ppi8gsn5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'qkepefmvpgif5bemu5ppi8gsn5'
+    '_csrf' => 'debfc3f7c8e4a807c32b6950524b6bd6bbcf1118bdc38d1ca74c4a2772f60552a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cIEQgU2d8UOM5qGCUfMjQzCBbW5yNCUt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rbac/default/index'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/admin/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=qkepefmvpgif5bemu5ppi8gsn5; _csrf=debfc3f7c8e4a807c32b6950524b6bd6bbcf1118bdc38d1ca74c4a2772f60552a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cIEQgU2d8UOM5qGCUfMjQzCBbW5yNCUt%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '64338'
+    'REDIRECT_URL' => '/rbac/default/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/default/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563207255.348
+    'REQUEST_TIME' => 1563207255
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 19:25:20 [127.0.0.1][-][m9hjbvnam695jj8novgv3bjuj2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "debug".' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug', Array)
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 19:25:20 [127.0.0.1][-][m9hjbvnam695jj8novgv3bjuj2][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6dd0359a3cf11e48dec75d22dad9e4861c9a0768f9c4a5669c656a19a6ae2338a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4DpE1Z9oiiUn8PE7qkuyDjGFb578qKzA\";}'
+    'PHPSESSID' => 'm9hjbvnam695jj8novgv3bjuj2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/company/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=6dd0359a3cf11e48dec75d22dad9e4861c9a0768f9c4a5669c656a19a6ae2338a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224DpE1Z9oiiUn8PE7qkuyDjGFb578qKzA%22%3B%7D; PHPSESSID=m9hjbvnam695jj8novgv3bjuj2'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '64976'
+    'REDIRECT_URL' => '/debug'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/debug'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563207920.223
+    'REQUEST_TIME' => 1563207920
+    'argv' => []
+    'argc' => 0
+]
+2019-07-15 19:26:21 [127.0.0.1][3][g17f65jt9hoct5n7j142l4iim2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OSPanel\domains\yii2-basic-companies\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(700): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Controller.php(145): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/company/i...', Array)
+#8 C:\OSPanel\domains\yii2-basic-companies\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OSPanel\domains\yii2-basic-companies\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-15 19:26:21 [127.0.0.1][3][g17f65jt9hoct5n7j142l4iim2][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'g17f65jt9hoct5n7j142l4iim2'
+    '_csrf' => '2560559057185a23176b661b19ba4bc5a0c010f34f73be1657fff97948327cd8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"15Q7TreSL1mGJdau9UCKyOxp7bj1Fkeh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/company/index'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-basic-companies'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://yii2-basic-companies/company/view?id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=g17f65jt9hoct5n7j142l4iim2; _csrf=2560559057185a23176b661b19ba4bc5a0c010f34f73be1657fff97948327cd8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2215Q7TreSL1mGJdau9UCKyOxp7bj1Fkeh%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;c:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6-x64;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;c:\\ospanel\\modules\\memcached\\Memcached-1.4-x64;c:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;c:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-basic-companies'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii2-basic-companies'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii2-basic-companies/web/index.php'
+    'REMOTE_PORT' => '65016'
+    'REDIRECT_URL' => '/admin/company/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/company/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563207981.555
+    'REQUEST_TIME' => 1563207981
+    'argv' => []
+    'argc' => 0
+]
